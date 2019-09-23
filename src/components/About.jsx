@@ -1,4 +1,5 @@
 import React from 'react'
+import Social from './Social'
 
 const About = props => (
     <div className='About'>
@@ -21,6 +22,7 @@ const About = props => (
                 <p>{props.address}</p>
             </div>
             <div className='About-social'>
+                <Social data={props.social} />
             </div>
         </div>
     </div>
