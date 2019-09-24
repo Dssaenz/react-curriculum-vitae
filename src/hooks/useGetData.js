@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const api = 'https://us-central1-gndx-cv.cloudfunctions.net/me'
+const api = 'https://raw.githubusercontent.com/Dssaenz/react-curriculum-vitae/master/data/data.json'
 
 //react hooks
 const UseGetData = () => {
