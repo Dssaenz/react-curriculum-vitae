@@ -21,7 +21,9 @@
   "homepage": "https://github.com/Dssaenz/react-curriculum-vitae#readme",
   "dependencies": {
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "styled-loaders-react": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
