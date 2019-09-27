@@ -9,6 +9,6 @@ const StyledH2 = Styled.h2`
     color: #C2185B;
 `
 
-const H2Styled = ({name}) => <StyledH2>{name}</StyledH2>
+const H2Styled = ({ name }) => <StyledH2>{name}</StyledH2>
 
 export default H2Styled

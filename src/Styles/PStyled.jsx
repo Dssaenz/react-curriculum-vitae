@@ -7,6 +7,6 @@ const StyledP = Styled.p`
     margin: .5em, 0 1.2em 0;
 `
 
-const PStyled = ({name}) => <StyledP>{name}</StyledP>
+const PStyled = ({ name }) => <StyledP>{name}</StyledP>
 
 export default PStyled

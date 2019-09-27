@@ -23,7 +23,6 @@ const GlobalStyles = createGlobalStyle`
 const App = () => {
     
     const mydata = useGetData();
-    console.log(mydata)
     
     return mydata.length === 0 ? <CubeGrid color='black' /> : (
         <Main>
