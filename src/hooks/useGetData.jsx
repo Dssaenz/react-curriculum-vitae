@@ -2,17 +2,16 @@ import { useState, useEffect } from 'react'
 
 const api = 'https://raw.githubusercontent.com/Dssaenz/react-curriculum-vitae/master/data/data.json'
 
-//react hooks
+//React hooks
 const UseGetData = () => {
     const [mydata, setData] = useState([]);
 
 useEffect(()=> {
-    //llamado a la api
+    //Llamado a la api
     fetch(api)
-    //Cuando se haga la peticion y devuelva un respuesta, esta se convierte en un archivo JSON para la manipulacion de datos
+    //Cuando se haga la petición y devuelva un respuesta, esta se convierte en un archivo JSON para la manipulación de datos.
     .then(response => response.json())
-    //Cuando se cumpla lo anterior la 'data' pasa a la funcion que actualiza el estado
-    //para que esta llene el estado inicial de la informacion recibida 
+    //Cuando se cumpla lo anterior la 'data' pasa a la función que actualiza el estado para que esta llene el estado inicial de la información recibida 
     .then(data => setData(data))
     }, []);
 
