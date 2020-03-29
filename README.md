@@ -1,7 +1,7 @@
 # Curriculum vitae
 To view the proyect:
 - Clone repository
-- In branch master run 'npm install'
+- Run 'npm install'
 - Run 'npm run start'
 
 <img src="Images/WebDesign.png">
