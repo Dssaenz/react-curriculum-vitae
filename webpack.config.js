@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin'); 
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 //Creacion de modulo y la exportacion necesaria
 module.exports = {
@@ -25,17 +25,17 @@ module.exports = {
                 //Exclucion de node_modules
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader"    
+                    loader: "babel-loader"
                 }
             },
             {
-                //Regla que entien archivos html y los prepara
+                //Regla que entiende archivos html y los prepara
                 test: /\.html$/,
                 use:[{
                     loader: "html-loader"
                 }]
             }
-        ]       
+        ]
     },
     //Entiende el archivo index.html de la carpeta public y el archivo index que se generara apartir de este en la carpeta dist que se mandara a pruccion
     plugins: [
